@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<variables>
+	<category name="Connection State">
+		<variable name="Connected" sysvar="Connected" type="boolean" sample="false"/>
+		<variable name="Last Error" sysvar="LastError" type="string" sample=""/>
+	</category>
+	<category name="HTTP Client">
+		<variable name="Last Request" sysvar="LastRequest" type="string" sample="GET / HTTP/1.1"/>
+		<variable name="Last Response" sysvar="LastResponse" type="string" sample="HTTP/1.1 200 OK"/>
+		<variable name="Last Status Code" sysvar="LastStatusCode" type="integer" sample="200"/>
+		<variable name="TX Count" sysvar="TXCountSysvar" type="integer" sample="1"/>
+		<variable name="RX Count" sysvar="RXCountSysvar" type="integer" sample="1"/>
+	</category>
+</variables>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<events>
+	<category name="HTTP Client Events">
+		<event name="Connected" tag="CONNECT"/>
+		<event name="Disconnected" tag="DISCONNECT"/>
+		<event name="Response Received" tag="RESPONSE"/>
+		<event name="Error" tag="ERROR"/>
+	</category>
+</events>

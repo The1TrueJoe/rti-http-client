@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<functions>
+	<category name="HTTP Client">
+		<function name="Send HTTP String" export="SendHTTP" repeatrate="0">
+			<parameter name="HTTP string, path, or URL" type="string" default="/"/>
+		</function>
+	</category>
+	<category name="Configured HTTP Strings">
+		<function name="%%request1Name%%" export="SendConfiguredRequest:1" repeatrate="0" cond="0">
+			<parameter name="Request index" type="integer" default="1" hidden="true"/>
+		</function>
+		<function name="%%request2Name%%" export="SendConfiguredRequest:2" repeatrate="0" cond="1">
+			<parameter name="Request index" type="integer" default="2" hidden="true"/>
+		</function>
+		<function name="%%request3Name%%" export="SendConfiguredRequest:3" repeatrate="0" cond="2">
+			<parameter name="Request index" type="integer" default="3" hidden="true"/>
+		</function>
+		<function name="%%request4Name%%" export="SendConfiguredRequest:4" repeatrate="0" cond="3">
+			<parameter name="Request index" type="integer" default="4" hidden="true"/>
+		</function>
+		<function name="%%request5Name%%" export="SendConfiguredRequest:5" repeatrate="0" cond="4">
+			<parameter name="Request index" type="integer" default="5" hidden="true"/>
+		</function>
+		<function name="%%request6Name%%" export="SendConfiguredRequest:6" repeatrate="0" cond="5">
+			<parameter name="Request index" type="integer" default="6" hidden="true"/>
+		</function>
+		<function name="%%request7Name%%" export="SendConfiguredRequest:7" repeatrate="0" cond="6">
+			<parameter name="Request index" type="integer" default="7" hidden="true"/>
+		</function>
+		<function name="%%request8Name%%" export="SendConfiguredRequest:8" repeatrate="0" cond="7">
+			<parameter name="Request index" type="integer" default="8" hidden="true"/>
+		</function>
+		<function name="%%request9Name%%" export="SendConfiguredRequest:9" repeatrate="0" cond="8">
+			<parameter name="Request index" type="integer" default="9" hidden="true"/>
+		</function>
+		<function name="%%request10Name%%" export="SendConfiguredRequest:10" repeatrate="0" cond="9">
+			<parameter name="Request index" type="integer" default="10" hidden="true"/>
+		</function>
+	</category>
+</functions>

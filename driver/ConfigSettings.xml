@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+	<category name="Connection" description="Default HTTP target for relative paths and raw request strings.">
+		<setting type="string" name="Default Host" variable="defaultHost" default="192.168.1.20" description="IP address or DNS name used when an HTTP string is not a full http:// URL."/>
+		<setting type="integer" name="Default Port" variable="defaultPort" default="80" description="TCP port used when an HTTP string does not include a port."/>
+		<setting type="mcstring" name="Default Method" variable="defaultMethod" default="GET" description="Method used when the HTTP string is a path or URL. Raw HTTP requests keep their own method.">
+			<choice name="GET"/>
+			<choice name="POST"/>
+			<choice name="PUT"/>
+			<choice name="PATCH"/>
+			<choice name="DELETE"/>
+		</setting>
+		<setting type="string" name="Default Headers" variable="defaultHeaders" default="" description="Optional headers added to generated requests. Use \r\n between headers. Host and Connection are generated automatically."/>
+		<setting type="boolean" name="Debug Trace" variable="DebugTrace" default="false" description="Print detailed driver messages to the RTI system log."/>
+	</category>
+	<category name="Configured HTTP Strings" description="How many configured HTTP strings should appear as RTI commands.">
+		<setting type="mcinteger" name="Number of HTTP strings" variable="requestCount" default="1" description="Select how many configured commands to expose.">
+			<choice name="1" value="1"/>
+			<choice name="2" value="2"/>
+			<choice name="3" value="3"/>
+			<choice name="4" value="4"/>
+			<choice name="5" value="5"/>
+			<choice name="6" value="6"/>
+			<choice name="7" value="7"/>
+			<choice name="8" value="8"/>
+			<choice name="9" value="9"/>
+			<choice name="10" value="10"/>
+		</setting>
+	</category>
+	<category name="HTTP String 1" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="0">
+		<setting type="string" name="Name" variable="request1Name" default="Example GET" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request1String" default="/" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 2" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="1">
+		<setting type="string" name="Name" variable="request2Name" default="Request 2" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request2String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 3" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="2">
+		<setting type="string" name="Name" variable="request3Name" default="Request 3" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request3String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 4" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="3">
+		<setting type="string" name="Name" variable="request4Name" default="Request 4" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request4String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 5" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="4">
+		<setting type="string" name="Name" variable="request5Name" default="Request 5" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request5String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 6" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="5">
+		<setting type="string" name="Name" variable="request6Name" default="Request 6" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request6String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 7" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="6">
+		<setting type="string" name="Name" variable="request7Name" default="Request 7" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request7String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 8" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="7">
+		<setting type="string" name="Name" variable="request8Name" default="Request 8" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request8String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 9" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="8">
+		<setting type="string" name="Name" variable="request9Name" default="Request 9" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request9String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+	<category name="HTTP String 10" description="Enter /path, http://host:port/path, or a complete HTTP request. Use \r\n escapes for raw request lines." cond="9">
+		<setting type="string" name="Name" variable="request10Name" default="Request 10" description="Command name shown in RTI programming."/>
+		<setting type="string" name="HTTP String" variable="request10String" default="" description="Path, URL, or full raw HTTP request string to send."/>
+	</category>
+</configuration>

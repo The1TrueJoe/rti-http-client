@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<dynamicConfig>
+  <expressions>
+    <expression rpn="$requestCount 1 &gt;=" />
+    <expression rpn="$requestCount 2 &gt;=" />
+    <expression rpn="$requestCount 3 &gt;=" />
+    <expression rpn="$requestCount 4 &gt;=" />
+    <expression rpn="$requestCount 5 &gt;=" />
+    <expression rpn="$requestCount 6 &gt;=" />
+    <expression rpn="$requestCount 7 &gt;=" />
+    <expression rpn="$requestCount 8 &gt;=" />
+    <expression rpn="$requestCount 9 &gt;=" />
+    <expression rpn="$requestCount 10 &gt;=" />
+  </expressions>
+  <variables>
+    <variable name="requestCount" type="expression" />
+    <variable name="request1Name" type="string" />
+    <variable name="request2Name" type="string" />
+    <variable name="request3Name" type="string" />
+    <variable name="request4Name" type="string" />
+    <variable name="request5Name" type="string" />
+    <variable name="request6Name" type="string" />
+    <variable name="request7Name" type="string" />
+    <variable name="request8Name" type="string" />
+    <variable name="request9Name" type="string" />
+    <variable name="request10Name" type="string" />
+    <variable name="request1String" type="string" />
+    <variable name="request2String" type="string" />
+    <variable name="request3String" type="string" />
+    <variable name="request4String" type="string" />
+    <variable name="request5String" type="string" />
+    <variable name="request6String" type="string" />
+    <variable name="request7String" type="string" />
+    <variable name="request8String" type="string" />
+    <variable name="request9String" type="string" />
+    <variable name="request10String" type="string" />
+  </variables>
+</dynamicConfig>

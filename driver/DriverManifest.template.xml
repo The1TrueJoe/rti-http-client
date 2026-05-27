@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<driverManifest>
+<driver id="{B9226EE9-C8D7-4A5B-A021-704694E0DB88}" name="Simple HTTP Client" author="Joey Telaak" copyright="Copyright 2026" deviceManufacturer="RTI" deviceModel="HTTP Client" driverVersion="__VERSION__" minimumSoftwareVersion="9.0" processorType="XP-8" configSettingsStream="ConfigSettings.xml" systemEventsStream="SystemEvents.xml" systemFunctionsStream="SystemFunctions.xml" helpTextStream="instructions.rtf" helpTextStreamSize="__HELP_SIZE__" uid="888888" dynamicConfigStream="DynamicConfigInfo">
+
+		<processorScript stream="http_client.js" size="__SCRIPT_SIZE__"/>
+		<driverStore><developer developer="a091801e-b106-4217-bbef-eed6929d15c1"/><distribution method="adhoc"/></driverStore></driver>
+</driverManifest>

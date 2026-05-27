@@ -1,0 +1,9 @@
+{
+  "name": "rti-http-client",
+  "version": "1.0",
+  "description": "Simple RTI HTTP client driver for sending configured HTTP strings.",
+  "private": true,
+  "scripts": {
+    "package": "python3 scripts/package-driver.py"
+  }
+}

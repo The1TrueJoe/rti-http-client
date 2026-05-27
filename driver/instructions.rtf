@@ -1,0 +1,16 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Arial;}}
+\f0\fs22
+\b Simple HTTP Client\b0\par
+\par
+This RTI driver sends simple HTTP requests from an XP processor over plain TCP.\par
+\par
+Configure Default Host and Default Port, then add one or more HTTP strings. Each string can be:\par
+\bullet  a relative path such as /api/power/on\par
+\bullet  a full URL such as http://192.168.1.50:8080/api/power/on\par
+\bullet  a raw HTTP request such as GET /api HTTP/1.1\'5cr\'5cnHost: 192.168.1.50\'5cr\'5cn\'5cr\'5cn\par
+\par
+Use \\r\\n in configuration fields when entering raw HTTP request line breaks or extra headers. The driver can also decode percent escapes such as %0D%0A.\par
+\par
+HTTPS is not supported by this simple TCP driver. Use plain HTTP or put a local HTTP-to-HTTPS proxy on the network if TLS is required.\par
+}
